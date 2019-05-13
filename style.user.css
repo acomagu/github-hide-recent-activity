@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name         GitHub Hide Recent Activity
+@namespace    github.com/acomagu/github-hide-recent-activity
+@version      1.0.0
+@license      unlicense
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+  .news > h2,
+  .js-recent-activity-container {
+      display: none;
+  }
+}
